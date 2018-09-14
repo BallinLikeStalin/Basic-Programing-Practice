@@ -13,7 +13,11 @@
 #   The logical evaluation of the expression
 
 # Write your function here:
-
+def logic1(n1, n2):
+    if n1 == n2:
+        return 'n1 == n2'
+    else:
+        return 'false'
 
 # TODO:
 # Write a function logic2 that takes 3 boolean values and returns
@@ -32,6 +36,10 @@
 #   The logical evaluation of the expression
 
 # Write your function here:
+def logic2(n1, n2, n3):
+    
+
+
 
 #############################################################
 # TESTS BELOW THIS LINE

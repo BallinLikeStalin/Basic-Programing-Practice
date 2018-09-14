@@ -1,3 +1,4 @@
+
 # TODO:
 # Write a function called sum_m_to_n that sums all values from
 # the value m to the value n this is an inclusive range, so
@@ -11,6 +12,11 @@
 #   the sum of all values between m and n
 
 # Write your function here:
+def sum_m_to_n (m, n):
+    f = 0
+    for k in range(m, (n + 1)):
+        f = f + (k - 1)
+    return f
 
 # TODO:
 # Write a function called sum_m_to_n_step_r that sums every r value from
@@ -25,7 +31,14 @@
 # Return:
 #   the sum of all values between m and n
 
+
 # Write your function here:
+def sum_m_to_n_step_r (m, n, r):
+    f = 0
+    for k in range(m, n+1, r):
+        f = f + (k - 1)
+    return f
+
 
 #############################################################
 # TESTS BELOW THIS LINE

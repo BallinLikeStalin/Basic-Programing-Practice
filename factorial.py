@@ -1,4 +1,4 @@
-# TODO:
+# done:
 # Write a function called factorial that returns the factorial of n
 #
 # Arguments:
@@ -8,6 +8,12 @@
 #   factorial of n
 
 # Write your function here:
+def factorial(n):
+    fac = 0
+    for k in range(1, n):
+        fac = fac * k
+    return fac
+
 
 
 #############################################################
